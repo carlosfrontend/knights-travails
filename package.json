@@ -1,5 +1,5 @@
 {
-  "name": "linked-lists",
+  "name": "knights-travails",
   "version": "1.0.0",
   "description": "This repository creates a simple linked list",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlosfrontend/linked-lists"
+    "url": "https://github.com/carlosfrontend/knights-travails"
   },
   "author": "carlosfrontend",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlosfrontend/linked-lists/issues"
+    "url": "https://github.com/carlosfrontend/knights-travails/issues"
   },
-  "homepage": "https://github.com/carlosfrontend/linked-lists?tab=readme-ov-file#linked-lists--the-odin-project-",
+  "homepage": "https://github.com/carlosfrontend/knights-travails?tab=readme-ov-file#knights-travails",
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
