@@ -1,7 +1,7 @@
 const createVertex = (x, y) => {
   const coords = [x, y];
   const neightbourIndexes = [];
-  const neightbour = [];
+  const neightbours = [];
   const name = x + 8 * y;
   const knightMovements = [
     [2, -1],
@@ -30,7 +30,7 @@ const createVertex = (x, y) => {
     }
   }
 
-  return { coords, neightbour, neightbourIndexes, name };
+  return { coords, neightbours, neightbourIndexes, name };
 };
 
 export default createVertex;
