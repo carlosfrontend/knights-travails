@@ -1,8 +1,5 @@
 import createGraph from './createGraph.js';
 
-const graph = createGraph();
-const board = graph.adjacentList;
+const graph = createGraph().buildGraph();
 
-
-
-console.log(board);
+// console.log(graph);
