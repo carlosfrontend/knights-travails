@@ -14,12 +14,8 @@ const createGraph = () => {
     }
     for (let i = 0; i < board.length; i+=1) {
       for (let j = 0; j < board[i].neightbourIndexes.length; j+=1) {
-        console.log(
-          board[i].neightbour.push(board[board[i].neightbourIndexes[j]])
-        );
+        board[i].neightbour.push(board[board[i].neightbourIndexes[j]]);
       }
-
-      console.log(board);
     }
     return board;
   };
