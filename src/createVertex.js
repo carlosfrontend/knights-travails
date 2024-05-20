@@ -1,8 +1,8 @@
 const createVertex = (x, y) => {
   const coords = [x, y];
-  const neightbourIndexes = [];
-  const neightbours = [];
-  const name = x + 8 * y;
+  const neighborIndexes = [];
+  const neighbors = [];
+  const index = x + 8 * y;
   const knightMovements = [
     [2, -1],
     [2, 1],
@@ -26,11 +26,11 @@ const createVertex = (x, y) => {
     const newY = y + knightMovements[i][1];
 
     if (isValidSquare(newX, newY)) {
-      neightbourIndexes.push(newX + 8 * newY);
+      neighborIndexes.push(newX + 8 * newY);
     }
   }
 
-  return { coords, neightbours, neightbourIndexes, name };
+  return { coords, neighbors, neighborIndexes, index, isValidSquare };
 };
 
 export default createVertex;

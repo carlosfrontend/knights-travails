@@ -1,5 +1,13 @@
-import createGraph from './createGraph.js';
+import knightMoves from './knightMoves.js';
 
-const graph = createGraph().buildGraph();
+// Starting coordinates
 
-console.log(graph);
+const start = [3, 3];
+
+// Ending coordinates
+
+const end = [4, 3];
+
+// Call to knightMoves function with starting and ending coordenates
+
+console.log(knightMoves(start, end));
