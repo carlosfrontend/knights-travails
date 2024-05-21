@@ -21,8 +21,8 @@ const knightMoves = (start, end) => {
     start[1] > 7 ||
     start[1] < 0
   ) {
-    console.log('Invalid initial position!');
-    return null;
+    msg = `Invalid initial position ${JSON.stringify(start)}!`;
+    return msg;
   }
   if (
     !endNode ||
@@ -31,8 +31,8 @@ const knightMoves = (start, end) => {
     end[1] > 7 ||
     end[1] < 0
   ) {
-    console.log('Invalid final position!');
-    return null;
+    msg = `Invalid final position ${JSON.stringify(end)}!`;
+    return msg;
   }
   // Initialize the queue with the initial node
   const queue = [startNode];
